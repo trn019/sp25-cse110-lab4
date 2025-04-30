@@ -1,0 +1,2 @@
+1. The bug was that num1 and num2 were the wrong data types. They were strings so the adding operation was treated as concatenation. 
+2. I fixed the bug by using the Number() function to convert the strings into numbers. I used this function on num1 and num2 in the calculateSum function.
